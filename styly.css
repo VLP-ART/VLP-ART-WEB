@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Raconteur-NF';
+    src:url('font/Raconteur-NF.ttf.woff') format('woff'),
+        url('font/Raconteur-NF.ttf.eot') format('svg'),
+}
+
+.karticky{
+    font-family: "Raconteur-NF";
+    margin-top: 2rem;
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+a:visited, a:hover, a:focus {
+    text-decoration: none;
+    color: #000;
+}
+
+.background{
+    width: 100%;
+    background-image: url('cats.jpg');
+    background-repeat:repeat;
+    background-size: auto;
+}
+
+.body1{
+    margin-bottom: 40px;
+}
+
+.body2{
+    padding: 2em;
+    background-image: url('cats.jpg');
+    background-repeat:repeat;
+    background-size: 50%;
+    border: #000 1.5px solid;
+    border-radius: 10px;
+}
+
+.nadpis
+{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.card-body{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.card-body2{
+    min-width: 300px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column; /* Ensure the content inside grows vertically */
+    flex-grow: 1; /* Allow the card-body-2 to grow */
+    gap: 30px;
+}
+
+.spantypeshit{
+    font-size: 1.5rem;
+}
+
+.god{
+    text-decoration-line: underline;
+}
+
+.creations{
+    text-decoration-line: overline;
+}
