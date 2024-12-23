@@ -13,7 +13,6 @@
     gap: 20px;
     justify-content: center;
     align-items: center;
-    min-width: 400px;
 }
 
 a:visited, a:hover, a:focus {
@@ -33,6 +32,7 @@ a:visited, a:hover, a:focus {
 }
 
 .body2{
+    max-width: 500px;
     padding: 2em;
     background-image: url('cats.jpg');
     background-repeat:repeat;
