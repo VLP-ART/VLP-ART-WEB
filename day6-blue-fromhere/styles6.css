@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Raconteur-NF';
+    src:url('../font/Raconteur-NF.ttf.woff') format('woff'),
+        url('../font/Raconteur-NF.ttf.eot') format('svg'),
+}
+
+.karticky{
+    font-family: "Raconteur-NF";
+    margin-top: 2rem;
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+a:visited, a:hover, a:focus {
+    text-decoration: none;
+    color: #000;
+}
+
+.background{
+    width: 100%;
+    background-image: url('../cats.jpg');
+    background-repeat:repeat;
+    background-size: auto;
+}
+
+.body1{
+    margin-bottom: 40px;
+    max-width: 700px;
+}
+
+.body2{
+    padding: 3em;
+    background-color: white;
+    border: #000 1px solid;
+    border-radius: 10px;
+}
+
+.nadpis
+{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 2rem;
+}
+
+.card-body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.card-body2{
+    max-width: 300px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 30px;
+}
+
+.popis{
+    text-align: center;
+}
+
+.spantypeshit{
+    font-size: 1.5rem;
+}
+
+.smelly{
+    width: 100%;
+    max-width: 600px;
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+
+.smelly:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+
+  .button{
+    background-color: darkcyan;
+    border: solid 1px black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+  .button:hover{
+    background-color: #00b3b3;
+  }
