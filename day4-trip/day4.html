@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles4.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <title>Trip</title>
 </head>
 <body>
     
     <body class="background">
 
-        <p><a style="text-decoration: none; color: black;" href="../index.html">zpět</a></p>
+        <p><a class="button" style="text-decoration: none; color: black;" href="../index.html">zpět</a></p>
     
     <section class="karticky">
     
@@ -31,7 +32,7 @@
             <div class="card-body">
                 
                 <div class="card-body-2"> 
-                    <p class="spantypeshit">Mountain Adventure by PROUD RAT</p>
+                    <p class="spantypeshit">Mountain Adventure by TRXSHKXN</p>
                 </div>
     
                 <div class="card-body-3">
@@ -89,16 +90,23 @@
     <div class="body1">
         <div class="body2">
             <div class="card-body">
-                
-                <div class="card-body-2"> 
-                    <p class="spantypeshit">The Last Saint Čoud Of Christmas Eve by Umyvadlos</p>
+                <a id="readmore" href="#content"></a>
+                <div class="card-body-2" id="content" style="display: none;"> 
+                    <p class="spantypeshit">The Last Saint Čoud Of Christmas Eve</p>
+                    <div class="card-body-3">
+    
+                        <img src="creations/Thesaintcoud.jpg" alt="fukoffmiki" class="smelly">
+        
+                    </div>
                 </div>
+
+                <script>
+                    $('#readmore').click(function(e) {
+                      e.preventDefault();
+                      $('#content').fadeIn(); // Show or hide the content when the link is clicked
+                    });
+                  </script>
     
-                <div class="card-body-3">
-    
-                    <img src="creations/Thesaintcoud.jpg" alt="fukoffmiki" class="smelly">
-    
-                </div>
             </div>
         </div>
     </div>
