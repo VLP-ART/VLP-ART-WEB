@@ -7,9 +7,7 @@
 /*stranka*/
 
 .html{
-    margin: 0;
-    padding: 0;
-    border: 0;
+    min-width: 800px;
 }
 
 .karticky{
@@ -21,8 +19,15 @@
     gap: 20px;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    min-width: 300px;
+    min-width: 40em;
+}
+
+@media (max-width: 768px) {
+    .karticky {
+        flex-direction: column;
+        gap: 10px;
+        min-width: 100%; /* Zajistí, že se přizpůsobí šířce obrazovky */
+    }
 }
 
 a:visited, a:hover, a:focus {
@@ -41,8 +46,18 @@ a:visited, a:hover, a:focus {
     margin-bottom: 40px;
 }
 
-.body2{
+.popis{
     max-width: 500px;
+    padding: 2em;
+    background-color: white;
+    background-repeat:repeat;
+    background-size: 50%;
+    border: #000 1.5px solid;
+    border-radius: 40px;
+}
+
+.body2{
+    max-width: 300px;
     padding: 2em;
     background-color: white;
     background-repeat:repeat;
@@ -61,7 +76,6 @@ a:visited, a:hover, a:focus {
 .card-body{
     gap: 30px;
     text-align: center;
-    min-width: 400px;
 }
 
 .card-body2{
@@ -129,7 +143,6 @@ a:visited, a:hover, a:focus {
 
 .welcoma{
     width: 100%;
-    max-width: 600px;
     height: auto;
 }
 
